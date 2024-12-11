@@ -12,9 +12,9 @@ This is a project for Lab Work 8 for QA subject (GlobalLogic Certificate Program
 - iperf
 
 ## Supported Features
-- test network connectivity with iperf
-- ssh into server(to bring up iperf server) via paramiko
-- only tcp protocol
+- Test network connectivity with iperf
+- SSH into server(to bring up iperf server) via paramiko
+- Only tcp protocol
 
 ## TestCase
 The program tests iperf connection between a client and a server. A server is accessed via SSH, which means configuring ip, username and password inside
@@ -23,6 +23,7 @@ Parser converts recieved values, and testcase checks for
 - No server error has occured
 - No client error has occured
 - Client output has data
+
 Lastly, the output data is printed and the test passes. Due to poor network condition while perfroming tests, program doesn't check for network bitrate
 over the whole test period.
 
